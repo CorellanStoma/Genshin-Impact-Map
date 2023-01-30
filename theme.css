@@ -1,0 +1,232 @@
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ Genshin Impact Map       ║ Variables                       ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+:root {
+  /* Background */
+  --background-primary: #58657b;
+  --background-secondary: #3a4353;
+  --background-tertiary:#313946;
+  }
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ General                         ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  /* Background */
+  .mhy-map {
+    background-color: #17181c !important;
+  }
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ Filter Panel                    ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  /* Background */
+  .filter-panel__content {
+    background: var(--background-secondary);
+    border: .5px solid var(--background-primary);
+  }
+  
+  /* Gradient */
+  .filter-panel__footer[data-v-75eb723a] {
+    background: linear-gradient(180deg,rgba(50,57,71,0),var(--background-secondary) 50%);
+  }
+  
+  .filter-panel__labels-content {
+    background: var(--background-tertiary);
+    border-radius: .18rem;
+    padding: .1rem 0px 0px .1rem;
+  }
+  
+  .filter-panel__labels-ascension__current-name img[data-v-173079ef] {
+   background: #3a4353;
+   border-radius: .08rem !important;
+  }
+  
+  /* Spacing */
+  .filter-panel__labels-filter-item[data-v-75eb723a]:nth-child(4n) {
+    margin-right: .1rem !important;
+  }
+  
+  .filter-panel__labels-ascension[data-v-173079ef] {
+    padding: .1rem .1rem 0;
+  }
+  
+  .filter-panel__labels-content[data-v-173079ef] {
+   padding-left: 0px !important;
+  }
+  
+  /* Title*/
+  .filter-panel__labels-title {
+   font-size: 16px !important;
+   line-height: unset !important;
+   padding-bottom: 6px !important;
+   padding-top: 12px !important;
+  }
+  
+  .filter-panel__labels-title__text {
+    max-width: unset !important;
+  }
+  
+  
+  /* Item Size */
+  .filter-item__img {
+    width: .586rem !important;
+    height: .586rem !important;
+  }
+  
+  /* Item Border */
+  .filter-item__img {
+    background-color: var(--background-secondary);
+    border: .5px solid var(--background-primary);
+    border-radius: .06rem;
+  }
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ Side Menu                       ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  /* Background */
+  .mhy-map__action-btn {
+    background: var(--background-tertiary);
+    border: .5px solid var(--background-primary);
+    border-radius: .12rem;
+  }
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ Language Menu                   ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  /* Language */
+  .language-menu__panel {
+    background: var(--background-tertiary);
+    border: .5px solid var(--background-primary);
+    border-radius: .12rem;
+  }
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ Slider                          ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  
+  /* Background */
+  .mhy-map .leaflet-control-zoomslider {
+    transform: translate(-0.20rem,-0.20rem) !important;
+    background: var(--background-tertiary);
+    border: .5px solid var(--background-primary);
+    border-radius: .12rem;
+    padding: 9px;
+    margin: 0px
+  }
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ Switch                          ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  /* Background */
+  .waypoint-switch,
+  .underground-switch {
+    transform: scale(0.8);
+    background-color: var(--background-tertiary);
+    border: 0.5px solid var(--background-primary);
+    border-radius: .12rem;
+    width: 200px;
+    padding: 12px;
+    right: 2.8rem;
+    margin-left: -20px;
+  }
+  
+  /* Spacing */
+  .waypoint-switch {
+    bottom: 0.11rem; 
+  }
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ Location Button                 ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  /* Background */
+  .map-locations__btn {
+    background: var(--background-tertiary);
+    border: .5px solid var(--background-primary);
+    border-radius: .12rem;
+  }
+  
+  /* Spacing */
+  .map-locations {
+    top: unset;
+    left: unset;
+    bottom: 2.32rem;
+    right: .20rem;
+  }
+  
+  /* Popout */
+  .map-locations__dropdown {
+    padding: unset !important;
+    padding-right: 20px !important;
+    left: unset;
+    right: 0.30rem;
+  }
+  
+  .map-locations__dropdown-content {
+    background: var(--background-tertiary);
+    border: .5px solid var(--background-primary);
+    border-radius: .12rem;
+  }
+  
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ Remove                          ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  /* Remove New Button */
+  .area-list__tip--total[data-v-794f488a] {
+    display: none;
+  }
+  
+  /* No QR Code */
+  .bbs-qr {
+    display: none !important;
+  }
+  
+  
+  /* No Filter Count*/
+  .filter-panel__labels-title__count {
+    display: none !important
+  }
+  
+  
+  /* No Filter List */
+  .filter-panel__body-left {
+    display: none !important;
+  }
+  
+  /* ╔══════════════════════════╦═════════════════════════════════╗ */
+  /* ║ Genshin Impact Map       ║ Hover Effect                    ║ */
+  /* ╚══════════════════════════╩═════════════════════════════════╝ */
+  
+  /* Normal */
+  .filter-panel__content,
+  .waypoint-switch,
+  .underground-switch,
+  .map-locations__btn,
+  .mhy-map .leaflet-control-zoomslider,
+  .mhy-map__action-btn,
+  .filter-panel__fold[data-v-75eb723a] {
+    opacity: 0.0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  /* Hover */
+  .mhy-game-gis:hover .filter-panel__content,
+  .mhy-game-gis:hover .waypoint-switch,
+  .mhy-game-gis:hover .underground-switch,
+  .mhy-game-gis:hover .map-locations__btn,
+  .mhy-game-gis:hover .mhy-map .leaflet-control-zoomslider,
+  .mhy-game-gis:hover .mhy-map__action-btn,
+  .mhy-game-gis:hover .filter-panel__fold[data-v-75eb723a] {
+    opacity: 1.0;
+  }
