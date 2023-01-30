@@ -128,7 +128,7 @@
 .waypoint-switch,
 .underground-switch {
   transform: scale(0.8);
-  background-color: var(--background-tertiary);
+  background-color: var(--background-secondary);
   border: 0.5px solid var(--background-primary);
   border-radius: .12rem;
   width: 200px;
@@ -175,6 +175,16 @@
   border-radius: .12rem;
 }
 
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ Genshin Impact Map       ║ Popout                          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+/* Background */
+.leaflet-popup {
+  background: var(--background-tertiary);
+  border: .5px solid var(--background-primary);
+  border-radius: .12rem;
+}
 
 /* ╔══════════════════════════╦═════════════════════════════════╗ */
 /* ║ Genshin Impact Map       ║ Remove                          ║ */
@@ -229,4 +239,13 @@
 .mhy-game-gis:hover .mhy-map__action-btn,
 .mhy-game-gis:hover .filter-panel__fold[data-v-75eb723a] {
   opacity: 1.0;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ Genshin Impact Map       ║ Drop Shaddow                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+/* Popout */
+.leaflet-popup {
+  filter: drop-shadow(0 0 0.20rem rgba(0, 0, 0, 0.6));
 }
