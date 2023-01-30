@@ -1,5 +1,6 @@
 # Genshin-Impact-Map
-Custom CSS for the Web Map
+Custom CSS for the Web Map:
+https://act.hoyolab.com/ys/app/interactive-map/index.html
 
 
 ## Default:
